@@ -1,0 +1,104 @@
+body {
+
+    margin: 0;
+    background-size: 100% 100%;
+   background-color:rgb(59, 72, 81);
+   color: white;
+}
+    
+    .topnav {
+    
+    background-color:rgb(20, 20, 41) ;
+    
+    overflow:visible;
+    
+    }
+    
+    .topnav a {
+    
+    float: left;
+    
+    color:white;
+    
+    text-align:right;
+    
+    padding: 19px 20px;
+    
+    text-decoration:aqua;
+    
+    font-size: 17px;
+    
+    }
+    
+    .topnav a:hover {
+    
+    background-color: rgb(86, 86, 157);
+    
+    color: black;
+    
+    }
+    
+    .topnav a.active {
+    
+    background-color: salmon;
+    
+    color: white;   
+    }
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding-right: 5px;
+}
+.content img{text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    background-color: aquamarine;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    margin-left: 25%;
+    
+
+} 
+ 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10%;
+    padding: 5% 5%;
+    position: relative;
+    margin-top: 20px;
+    background-color: rgba(21,21,41);
+    height: 500px;
+}
+.foot-bot {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgba(21,21,41);
+    height: 350px;
+    width: 100%;
+}
+.foot-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+.foot-txt {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.motivation{
+    flex-direction: column;
+    color: white;
+}
